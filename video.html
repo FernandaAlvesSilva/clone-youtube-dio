@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/youtubevideo.css">
+    <!-- Font Awesome 6 (versão mais recente no CDN oficial) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Youtube - Assistindo Vídeo</title>
+</head>
+
+<body>
+    <input type="checkbox" id="menu-toggle" hidden>
+
+    <header class="header">
+        <div class="header__logo">
+            <a href="/index.html"><img src="/assets/img/youtube 1.png" alt="Logo do Youtube"></a>
+            <label for="menu-toggle" class="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </div>
+
+        <div class="header__search">
+            <input type="text">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div class="header__apps">
+            <button><i class="fa-solid fa-video"></i></button>
+            <button><i class="fa-solid fa-bell"></i></button>
+        </div>
+
+        <div class="header__user">
+            <img src="/assets/img/Avatar.png" alt="Usuário">
+        </div>
+    </header>
+
+
+    <nav class="sidebar">
+        <ul>
+            <li><a href="/index.html"><i class="fa-solid fa-house"></i> Início</a></li>
+            <li><a href="#"><i class="fa-solid fa-compass"></i> Explorar</a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i> Inscrições</a></li>
+            <li><a href="#"><i class="fa-solid fa-compact-disc"></i> YouTube Music</a></li>
+            <li><a href="#"><i class="fa-solid fa-thumbs-up"></i> Vídeos que gostei</a></li>
+            <li><a href="#"><i class="fa-solid fa-clock"></i> Assistir mais tarde</a></li>
+            <li><a href="#"><i class="fa-solid fa-download"></i> Downloads</a></li>
+            <li><a href="#"><i class="fa-solid fa-film"></i> Filmes</a></li>
+            <li><a href="#"><i class="fa-solid fa-book"></i> Aprender</a></li>
+            <li><a href="#"><i class="fa-solid fa-medal"></i> Esportes</a></li>
+            <li class="icon-head"><a href="#"><i class="fa-solid fa-video"></i> Enviar Vídeos</a></li>
+            <li class="icon-head"><a href="#"><i class="fa-solid fa-bell"></i> Notificações</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="video__player">
+            <div class="video__container">
+                <img src="/assets/img/video.png" alt="Thumbnail do vídeo" class="video__thumbnail">
+            </div>
+            <div class="video__info">
+                <h1 class="video__title">Geração Tech Unimed - BH - Ciência de Dados</h1>
+                <div class="video__description">
+                    <img src="/assets/img/Channel Avatar.png" alt="Avatar do canal Data Science Academy" class="video__avatar">
+                    <div class="video__channel-name">
+                        <h2>Dio</h2>
+                        <p>83,3 mil inscritos</p>
+                    </div>
+                    <div class="video__actions">
+                        <button class="video__btn video__btn--subscribe"><i class="fa-solid fa-bell"></i> Inscreva-se</button>
+                        <button class="video__btn video__btn--like"><i class="fa-solid fa-thumbs-up"></i> 2 mil</button>
+                        <button class="video__btn video__btn--dislike"><i class="fa-solid fa-thumbs-down"></i> Não gostei</button>
+                        <button class="video__btn video__btn--share"><i class="fa-solid fa-share-nodes"></i> Compartilhar</button>
+                        <button class="video__btn video__btn--download"><i class="fa-solid fa-download"></i> Download</button>
+                    </div>
+                </div>    
+                <div class="video__details">
+                    <p class="video__views">28.418 visualizações  Transmitido ao vivo em 23 ago. de 2022</p>
+                    <p class="video__description-text">Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS.
+                    Para isso, criaremos uma landing page com a temática da série Stranger Things, a qual contará com a
+                    implementação de um theme switcher (light e dark) para explorarmos os mistérios do mundo invertido.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="video_suggestions">
+            <div class="suggestions__container">
+                <div class="suggestion__item">
+                    <img src="/assets/img/ciencia de dados.png" alt="Thumbnail do vídeo 1"
+                        class="suggestion__thumbnail">
+                        <div class="suggestion__info">
+                            <h3 class="suggestion__title">Geração Tech Unimed - BH - Ciência de Dados</h3>
+                            <p class="suggestion__channel">DigitalInnovationOne</p>
+                            <p class="suggestion__views">2,1 mil visualizações</p>
+                            <p class="suggestion__date">Transmitido há 2 dias</p>
+                        </div>
+                </div>
+                <div class="suggestion__item">
+                    <img src="/assets/img/scrum.png" alt="Thumbnail do vídeo 2" class="suggestion__thumbnail">
+                    <div class="suggestion__info">
+                        <h3 class="suggestion__title">Scrum Talks</h3>
+                        <p class="suggestion__channel">DigitalInnovationOne</p>
+                        <p class="suggestion__views">1,6 mil visualizações</p>
+                        <p class="suggestion__date">Transmitido há 3 dias</p>
+                    </div>   
+                </div>
+                <div class="suggestion__item">
+                    <img src="/assets/img/ey.png" alt="Thumbnail do vídeo 2" class="suggestion__thumbnail">
+                    <div class="suggestion__info">
+                        <h3 class="suggestion__title">Machine Learning Avançado - Fast Track</h3>
+                        <p class="suggestion__channel">DigitalInnovationOne</p>
+                        <p class="suggestion__views">1,7 mil visualizações</p>
+                        <p class="suggestion__date">Transmitido há 4 dias</p>
+                    </div>    
+                </div>
+                <div class="suggestion__item">
+                    <img src="/assets/img/project.png" alt="Thumbnail do vídeo 2" class="suggestion__thumbnail">
+                    <div class="suggestion__info">
+                        <h3 class="suggestion__title">Global Skills #2 - Project Planning</h3>
+                        <p class="suggestion__channel">DigitalInnovationOne</p>
+                        <p class="suggestion__views">971 visualizações</p>
+                        <p class="suggestion__date">Transmitido há 5 dias</p>
+                    </div>  
+                </div>
+                <div class="suggestion__item">
+                    <img src="/assets/img/phyton.png" alt="Thumbnail do vídeo 2" class="suggestion__thumbnail">
+                    <div class="suggestion__info">
+                        <h3 class="suggestion__title">Como aprender a programar Python do ZERO</h3>
+                        <p class="suggestion__channel">DigitalInnovationOne</p>
+                        <p class="suggestion__views">711 visualizações</p>
+                        <p class="suggestion__date">Transmitido há 6 dias</p>
+                    </div>    
+                </div>
+                <div class="suggestion__item">
+                    <img src="/assets/img/ciencia de dados.png" alt="Thumbnail do vídeo 1" class="suggestion__thumbnail">
+                    <div class="suggestion__info">
+                        <h3 class="suggestion__title">Geração Tech Unimed - BH - Ciência de Dados</h3>
+                        <p class="suggestion__channel">DigitalInnovationOne</p>
+                        <p class="suggestion__views">2,1 mil visualizações</p>
+                        <p class="suggestion__date">Transmitido há 2 dias</p>
+                    </div>    
+                </div>
+                <div class="suggestion__item">
+                    <img src="/assets/img/scrum.png" alt="Thumbnail do vídeo 2" class="suggestion__thumbnail">
+                    <div class="suggestion__info">
+                        <h3 class="suggestion__title">Scrum Talks</h3>
+                        <p class="suggestion__channel">DigitalInnovationOne</p>
+                        <p class="suggestion__views">1,6 mil visualizações</p>
+                        <p class="suggestion__date">Transmitido há 3 dias</p>
+                    </div>   
+                </div>
+                <div class="suggestion__item">
+                    <img src="/assets/img/ey.png" alt="Thumbnail do vídeo 2" class="suggestion__thumbnail">
+                    <div class="suggestion__info">
+                        <h3 class="suggestion__title">Machine Learning Avançado - Fast Track</h3>
+                        <p class="suggestion__channel">DigitalInnovationOne</p>
+                        <p class="suggestion__views">1,7 mil visualizações</p>
+                        <p class="suggestion__date">Transmitido há 4 dias</p>
+                    </div>    
+                </div>
+                <div class="suggestion__item">
+                    <img src="/assets/img/project.png" alt="Thumbnail do vídeo 2" class="suggestion__thumbnail">
+                    <div class="suggestion__info">
+                        <h3 class="suggestion__title">Global Skills #2 - Project Planning</h3>
+                        <p class="suggestion__channel">DigitalInnovationOne</p>
+                        <p class="suggestion__views">971 visualizações</p>
+                        <p class="suggestion__date">Transmitido há 5 dias</p>
+                    </div>  
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <p>Desenvolvido por Fernanda Alves</p>
+        </div>
+        <div class="redes__sociais">
+            <a href="https://www.linkedin.com/in/fernanda-alves-605a76242/" target="_self"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/FernandaAlvesSilva" target="_self"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>

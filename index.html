@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/youtubelay.css">
+    <!-- Font Awesome 6 (versão mais recente no CDN oficial) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Youtube - Página Inicial</title>
+</head>
+
+<body>
+    <input type="checkbox" id="menu-toggle" hidden>
+
+    <header class="header">
+        <div class="header__logo">
+            <a href="/index.html"><img src="/assets/img/youtube 1.png" alt="Logo do Youtube"></a>
+            <label for="menu-toggle" class="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </div>
+
+        <div class="header__search">
+            <input type="text">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div class="header__apps">
+            <button><i class="fa-solid fa-video"></i></button>
+            <button><i class="fa-solid fa-bell"></i></button>
+        </div>
+
+        <div class="header__user">
+            <img src="/assets/img/Avatar.png" alt="Usuário">
+        </div>
+    </header>
+
+
+    <nav class="sidebar">
+        <ul>
+            <li><a href="/index.html"><i class="fa-solid fa-house"></i> Início</a></li>
+            <li><a href="#"><i class="fa-solid fa-compass"></i> Explorar</a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i> Inscrições</a></li>
+            <li><a href="#"><i class="fa-solid fa-compact-disc"></i> YouTube Music</a></li>
+            <li><a href="#"><i class="fa-solid fa-thumbs-up"></i> Vídeos que gostei</a></li>
+            <li><a href="#"><i class="fa-solid fa-clock"></i> Assistir mais tarde</a></li>
+            <li><a href="#"><i class="fa-solid fa-download"></i> Downloads</a></li>
+            <li><a href="#"><i class="fa-solid fa-film"></i> Filmes</a></li>
+            <li><a href="#"><i class="fa-solid fa-book"></i> Aprender</a></li>
+            <li><a href="#"><i class="fa-solid fa-medal"></i> Esportes</a></li>
+            <li class="icon-head"><a href="#"><i class="fa-solid fa-video"></i> Enviar Vídeos</a></li>
+            <li class="icon-head"><a href="#"><i class="fa-solid fa-bell"></i> Notificações</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="main__videos">
+            <div class="main__videos--container">
+                <!-- Vídeo 1 -->
+                <div class="main__videos--item">
+                    <div class="video">
+                        <img src="/assets/img/ciencia de dados.png"
+                            alt="Thumbnail do vídeo Aprenda Ciência de Dados com Python" class="video__thumbnail">
+                    </div>
+                    <div class="video__info">
+                        <img src="/assets/img/Channel Avatar.png" alt="Avatar do canal Data Science Academy"
+                            class="video__avatar">
+                        <div class="video__details">
+                            <a href="/video.html" target="_self">
+                                <h3 class="video__title">Geração Tech Unimed - BH - Ciência de Dados</h3>
+                            </a>
+                            <p class="video__channel">2,1 mil visualizações</p>
+                            <p class="video__views">Transmitido há 2 dias</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Vídeo 2 -->
+                <div class="main__videos--item">
+                    <div class="video">
+                        <img src="/assets/img/scrum.png" alt="Thumbnail do vídeo Scrum Talks" class="video__thumbnail">
+                    </div>
+                    <div class="video__info">
+                        <img src="/assets/img/Channel Avatar.png" alt="Avatar do canal Data Science Academy"
+                            class="video__avatar">
+                        <div class="video__details">
+                            <h3 class="video__title">Scrum Talks</h3>
+                            <p class="video__channel">1,6 mil visualizações</p>
+                            <p class="video__views">Transmitido há 3 dias</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Vídeo 3 -->
+                <div class="main__videos--item">
+                    <div class="video">
+                        <img src="/assets/img/ey.png" alt="Thumbnail do vídeo Machine Learning Avançado - Fast Track"
+                            class="video__thumbnail">
+                    </div>
+                    <div class="video__info">
+                        <img src="/assets/img/Channel Avatar.png" alt="Avatar do canal Data Science Academy"
+                            class="video__avatar">
+                        <div class="video__details">
+                            <h3 class="video__title">Machine Learning Avançado - Fast Track</h3>
+                            <p class="video__channel">1,7 mil visualizações</p>
+                            <p class="video__views">Transmitido há 4 dias</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Vídeo 4 -->
+                <div class="main__videos--item">
+                    <div class="video">
+                        <img src="/assets/img/project.png" alt="Thumbnail do vídeo Global Skills #2 - Project Planning"
+                            class="video__thumbnail">
+                    </div>
+                    <div class="video__info">
+                        <img src="/assets/img/Channel Avatar.png" alt="Avatar do canal Data Science Academy"
+                            class="video__avatar">
+                        <div class="video__details">
+                            <h3 class="video__title">Global Skills #2 - Project Planning</h3>
+                            <p class="video__channel">2,1 mil visualizações</p>
+                            <p class="video__views">Transmitido há 2 dias</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Vídeo 5 -->
+                <div class="main__videos--item" >
+                    <div class="video">
+                        <img src="/assets/img/phyton.png"
+                            alt="Thumbnail do vídeo Como aprender a programar Python do ZERO" class="video__thumbnail">
+                    </div>
+                    <div class="video__info">
+                        <img src="/assets/img/Channel Avatar.png" alt="Avatar do canal Data Science Academy"
+                            class="video__avatar">
+                        <div class="video__details">
+                            <h3 class="video__title">Como aprender a programar Python do ZERO</h3>
+                            <p class="video__channel">711 visualizações</p>
+                            <p class="video__views">Transmitido há 2 dias</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Vídeo 1 -->
+                <div class="main__videos--item" id="video1">
+                    <div class="video">
+                        <img src="/assets/img/ciencia de dados.png"
+                            alt="Thumbnail do vídeo Aprenda Ciência de Dados com Python" class="video__thumbnail">
+                    </div>
+                    <div class="video__info">
+                        <img src="/assets/img/Channel Avatar.png" alt="Avatar do canal Data Science Academy"
+                            class="video__avatar">
+                        <div class="video__details">
+                            <a href="/video.html" target="_self">
+                                <h3 class="video__title">Geração Tech Unimed - BH - Ciência de Dados</h3>
+                            </a>
+                            <p class="video__channel">2,1 mil visualizações</p>
+                            <p class="video__views">Transmitido há 2 dias</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Vídeo 2 -->
+                <div class="main__videos--item" id="video1">
+                    <div class="video">
+                        <img src="/assets/img/scrum.png" alt="Thumbnail do vídeo Scrum Talks" class="video__thumbnail">
+                    </div>
+                    <div class="video__info">
+                        <img src="/assets/img/Channel Avatar.png" alt="Avatar do canal Data Science Academy"
+                            class="video__avatar">
+                        <div class="video__details">
+                            <h3 class="video__title">Scrum Talks</h3>
+                            <p class="video__channel">1,6 mil visualizações</p>
+                            <p class="video__views">Transmitido há 3 dias</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Vídeo 3 -->
+                <div class="main__videos--item" id="video1">
+                    <div class="video">
+                        <img src="/assets/img/ey.png" alt="Thumbnail do vídeo Machine Learning Avançado - Fast Track"
+                            class="video__thumbnail">
+                    </div>
+                    <div class="video__info">
+                        <img src="/assets/img/Channel Avatar.png" alt="Avatar do canal Data Science Academy"
+                            class="video__avatar">
+                        <div class="video__details">
+                            <h3 class="video__title">Machine Learning Avançado - Fast Track</h3>
+                            <p class="video__channel">1,7 mil visualizações</p>
+                            <p class="video__views">Transmitido há 4 dias</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Vídeo 2 -->
+                <div class="main__videos--item" id="video1">
+                    <div class="video">
+                        <img src="/assets/img/scrum.png" alt="Thumbnail do vídeo Scrum Talks" class="video__thumbnail">
+                    </div>
+                    <div class="video__info">
+                        <img src="/assets/img/Channel Avatar.png" alt="Avatar do canal Data Science Academy"
+                            class="video__avatar">
+                        <div class="video__details">
+                            <h3 class="video__title">Scrum Talks</h3>
+                            <p class="video__channel">1,6 mil visualizações</p>
+                            <p class="video__views">Transmitido há 3 dias</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Vídeo 3 -->
+                <div class="main__videos--item" id="video1">
+                    <div class="video">
+                        <img src="/assets/img/ey.png" alt="Thumbnail do vídeo Machine Learning Avançado - Fast Track"
+                            class="video__thumbnail">
+                    </div>
+                    <div class="video__info" id="video1">
+                        <img src="/assets/img/Channel Avatar.png" alt="Avatar do canal Data Science Academy"
+                            class="video__avatar">
+                        <div class="video__details">
+                            <h3 class="video__title">Machine Learning Avançado - Fast Track</h3>
+                            <p class="video__channel">1,7 mil visualizações</p>
+                            <p class="video__views">Transmitido há 4 dias</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Vídeo 4 -->
+                <div class="main__videos--item" id="video1">
+                    <div class="video">
+                        <img src="/assets/img/project.png" alt="Thumbnail do vídeo Global Skills #2 - Project Planning"
+                            class="video__thumbnail">
+                    </div>
+                    <div class="video__info" id="video1">
+                        <img src="/assets/img/Channel Avatar.png" alt="Avatar do canal Data Science Academy"
+                            class="video__avatar">
+                        <div class="video__details">
+                            <h3 class="video__title">Global Skills #2 - Project Planning</h3>
+                            <p class="video__channel">2,1 mil visualizações</p>
+                            <p class="video__views">Transmitido há 2 dias</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Vídeo 1 -->
+                <div class="main__videos--item" id="video1">
+                    <div class="video">
+                        <img src="/assets/img/ciencia de dados.png"
+                            alt="Thumbnail do vídeo Aprenda Ciência de Dados com Python" class="video__thumbnail">
+                    </div>
+                    <div class="video__info" id="video1">
+                        <img src="/assets/img/Channel Avatar.png" alt="Avatar do canal Data Science Academy"
+                            class="video__avatar">
+                        <div class="video__details">
+                            <a href="/video.html" target="_self">
+                                <h3 class="video__title">Geração Tech Unimed - BH - Ciência de Dados</h3>
+                            </a>
+                            <p class="video__channel">2,1 mil visualizações</p>
+                            <p class="video__views">Transmitido há 2 dias</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <p>Desenvolvido por Fernanda Alves</p>
+        </div>
+        <div class="redes__sociais">
+            <a href="https://www.linkedin.com/in/fernanda-alves-605a76242/" target="_self"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/FernandaAlvesSilva" target="_self"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>

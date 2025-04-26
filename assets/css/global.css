@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    --cor-header: #FFF;
+    --cor-main: #F8F8F8;
+    --cor-txt-desc: #515151;
+    --cor-border: #ccc;
+    --cor-txt-titulo: #000;
+    --cor-txt-btn: #FFF;
+    --cor-btn: #d61212;
+    --font-titulo: 'Poppins', sans-serif;
+    --font-paragrafo: arial, sans-serif;
+}
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    list-style: none; 
+}
+
+li{
+    font-family: var(--font-titulo);
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;   
+}
+
+h1, h2, h3 {
+    font-family: var(--font-titulo);
+    font-size: 1.2rem;
+    color: var(--cor-txt-titulo);
+    font-weight: 600;
+}
+
+p{
+    font-family: var(--font-paragrafo);
+    font-size: .9rem;
+    color: var(--cor-txt-desc);
+    font-weight: 400;
+}
+
+
+header{
+    background: var(--cor-header);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+}
+
+.header__logo{
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 2.5rem;
+    flex-direction: row-reverse;
+    padding: 0.5rem 1rem;
+}
+
+.header__logo img{
+    width: 5.625rem;
+    height: 1.25rem;
+    object-fit: cover;
+    position: relative;
+    top: 0.1rem;
+}
+
+.header__search{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 5rem;
+}
+
+.header__search input{
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--cor-border);
+    width: 20rem;
+    height: 2rem;
+    outline: none;
+}
+
+.header__search button{
+    width: 3rem;
+    height: 2rem;
+    border: 1px solid var(--cor-border);
+    background-color: var(--cor-main);
+}
+
+.header__apps{
+    padding: .5rem;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 10rem;
+    
+}
+
+.header__apps button{
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    background: transparent;
+}
+
+.header__user{
+    position: relative;
+    right: 3rem;
+    padding: .5rem;
+}
+
+.header__user img{
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+}
+
+
+/*sidebar*/
+
+.sidebar{
+    position: absolute;
+    top: 5.5rem;
+    left: -18.75rem;
+    width: 18.75rem;
+    height: 190vh;
+    transition: left 0.5s ease;
+    z-index: 1;
+    padding: 1rem .5rem;
+    background-color: var(--cor-header);
+    overflow-y: auto;
+}
+
+.sidebar li{
+    padding: .5rem 1rem;
+    margin-top: 2rem;
+}
+
+.sidebar li:hover{
+    background: var(--cor-border);
+    border-radius: 0.5rem;
+}
+
+.fa-solid, .fa-brands{
+    padding: 0.5rem;
+}
+
+.icon-head{
+    display: none;
+}
+
+/*checkbox*/
+
+#menu-toggle:checked ~ .sidebar {
+    left: 0;
+}
+  
+.menu-icon {
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+  
+
+.header {
+    position: relative;
+    z-index: 2;
+
+}
+
+/*main*/
+
+main{
+    background: var(--cor-main);
+
+}
+
+
+/*footer*/
+.footer__container, .redes__sociais{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__container{
+    margin: 1rem; 
+}
