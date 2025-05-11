@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube - Inicio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/global.css">
+  <link rel="stylesheet" href="/assets/css/youtubevideo.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-dark">
+    <div class="container-fluid">
+      <div class="d-flex align-items-center flex-grow-1">
+        <button class="navbar-toggler me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <i class="bi bi-list"></i>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img src="/assets/img/youtube 1.png" alt="Logo" class="d-inline-block align-text-top">
+        </a>
+        <form class="d-flex flex-grow-1 search__input" role="search">
+          <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Search">
+          <button class="btn btn__search" type="submit">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+      </div>
+      <div class="d-none d-lg-flex align-items-center icon__header">
+        <a href="#" class="text-white me-3"><i class="bi bi-camera-video"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-bell"></i></a>
+        <a href="#" class="text-white"><img src="/assets/img/Avatar.png" alt="Avatar" class="rounded-circle"></a>
+      </div>
+    </div>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="list-unstyled">
+          <li class="mb-3">
+            <a href="/index.html" class="text-dark d-flex align-items-center">
+              <i class="bi bi-house-door me-2 active"></i> Início
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="#" class="text-dark d-flex align-items-center">
+              <i class="bi bi-compass me-2"></i> Explorar
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="#" class="text-dark d-flex align-items-center">
+              <i class="bi bi-youtube me-2"></i> Inscrições
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="#" class="text-dark d-flex align-items-center">
+              <i class="bi bi-music-note-beamed me-2"></i> YouTube Music
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="#" class="text-dark d-flex align-items-center">
+              <i class="bi bi-hand-thumbs-up me-2"></i> Vídeos que gostei
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="#" class="text-dark d-flex align-items-center">
+              <i class="bi bi-clock me-2"></i> Assistir mais tarde
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="#" class="text-dark d-flex align-items-center">
+              <i class="bi bi-download me-2"></i> Downloads
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="#" class="text-dark d-flex align-items-center">
+              <i class="bi bi-film me-2"></i> Filmes
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="#" class="text-dark d-flex align-items-center">
+              <i class="bi bi-book me-2"></i> Aprender
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="#" class="text-dark d-flex align-items-center">
+              <i class="bi bi-trophy me-2"></i> Esportes
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="d-flex d-lg-none flex-column align-items-start mt-3 input__mobile">
+        <a href="#" class="text-dark mb-2"><i class="bi bi-camera-video"></i> Enviar vídeos </a>
+        <a href="#" class="text-dark mb-2"><i class="bi bi-bell"></i> Notificações </a>
+        <a href="#" class="text-dark"><img src="/assets/img/Avatar.png" alt="Avatar" class="rounded-circle"> Perfil </a>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="container mt-4">
+      <div class="row">
+        <!-- Vídeo e descrição Section -->
+        <div class="col-lg-8">
+          <div class="video-container mb-3">
+            <img src="/assets/img/video.png" alt="Placeholder do vídeo" class="img-fluid w-100 img__video"
+              style="height: auto; object-fit: cover;">
+          </div>
+          <h3 class="mb-2 text-tittle">Geração Tech Unimed - BH - Ciência de Dados</h3>
+          <div class="d-flex align-items-center justify-content-between mb-3 box__info">
+            <div class="d-flex align-items-center box__avatar">
+              <img src="/assets/img/Channel Avatar.png" alt="Avatar do Canal">
+              <div class="box__text">
+                <p class="mb-0"><strong>DIO</strong></p>
+                <p class="text-muted mb-0" style="font-size: 0.9rem;">83,3 mil inscritos</p>
+              </div>
+            </div>
+            <div class="d-flex align-items-center box__buttons">
+              <button class="btn btn-outline-danger btn-sm me-2">Inscrever-se</button>
+              <button class="btn btn-outline-secondary btn-sm me-2"><i class="bi bi-hand-thumbs-up"></i> Curtir</button>
+              <button class="btn btn-outline-secondary btn-sm me-2"><i class="bi bi-hand-thumbs-down"></i> Não Curtir</button>
+              <button class="btn btn-outline-secondary btn-sm me-2"><i class="bi bi-share"></i> Compartilhar</button>
+              <button class="btn btn-outline-secondary btn-sm me-2"><i class="bi bi-download"></i> Download</button>
+            </div>
+          </div>
+          <p class="text-views">28.418 visualizações • Transmitido ao vivo em 23 ago. de 2022</p>
+          <p class="mb-4 text-description">Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. Para isso, criaremos uma
+            landing page com a temática da série Stranger Things, a qual contará com a implementação de um theme
+            switcher (light e dark) para explorarmos os mistérios do mundo invertido.</p>
+          <hr>
+        </div>
+
+        <!-- Vídeos relacionados Section -->
+        <div class="col-lg-4 container__related">
+          <h5 class="mb-3">Vídeos Relacionados</h5>
+          <div class="related-video d-flex mb-3 content__related">
+            <img src="/assets/img/ciencia de dados.png" class="img-fluid me-3" alt="thumb de video"
+              style="width:  200px; height: auto;">
+            <div class="content__text">
+              <h6 class="mb-1">Geração Tech Unimed - BH - Ciência de Dados</h6>
+              <p class="text-muted mb-0">DigitalInnovationOne</p>
+              <p class="text-muted mb-0">2,1 mil visualizações Transmitido há 2 dias</p>
+            </div>
+          </div>
+          <div class="related-video d-flex mb-3 content__related">
+            <img src="/assets/img/scrum.png" class="img-fluid me-3" alt="thumb de video"
+              style="width:  200px; height: auto;">
+            <div  class="content__text">
+              <h6 class="mb-1">Scrum Talks</h6>
+              <p class="text-muted mb-0">DigitalInnovationOne</p>
+              <p class="text-muted mb-0">1,6 mil visualizações Transmitido há 3 dias</p>
+            </div>
+          </div>
+          <div class="related-video d-flex mb-3 content__related">
+            <img src="/assets/img/ey.png" class="img-fluid me-3" alt="thumb de video"
+              style="width:  200px; height: auto;">
+            <div  class="content__text">
+              <h6 class="mb-1">Machine Learning Avançado - Fast Track</h6>
+              <p class="text-muted mb-0">DigitalInnovationOne</p>
+              <p class="text-muted mb-0">1,7 mil visualizações Transmitido há 4 dias</p>
+            </div>
+          </div>
+          <div class="related-video d-flex mb-3 content__related">
+            <img src="/assets/img/project.png" class="img-fluid me-3" alt="thumb de video"
+              style="width:  200px; height: auto;">
+            <div  class="content__text">
+              <h6 class="mb-1">Global Skills #2 - Project Planning</h6>
+              <p class="text-muted mb-0">DigitalInnovationOne</p>
+              <p class="text-muted mb-0">971 visualizações Transmitido há 5 dias</p>
+            </div>
+          </div>
+          <div class="related-video d-flex mb-3 content__related">
+            <img src="/assets/img/phyton.png" class="img-fluid me-3" alt="thumb de video"
+              style="width:  200px; height: auto;">
+            <div  class="content__text">
+              <h6 class="mb-1">Como aprender a programar Python do ZERO</h6>
+              <p class="text-muted mb-0">DigitalInnovationOne</p>
+              <p class="text-muted mb-0">711 visualizações Transmitido há 6 dias</p>
+            </div>
+          </div>
+          <div class="related-video d-flex mb-3 content__related">
+            <img src="/assets/img/ciencia de dados.png" class="img-fluid me-3" alt="thumb de video"
+              style="width:  200px; height: auto;">
+            <div  class="content__text">
+              <h6 class="mb-1">Geração Tech Unimed - BH - Ciência de Dados</h6>
+              <p class="text-muted mb-0">DigitalInnovationOne</p>
+              <p class="text-muted mb-0">2,1 mil visualizações Transmitido há 2 dias</p>
+            </div>
+          </div>
+          <div class="related-video d-flex mb-3 content__related">
+            <img src="/assets/img/scrum.png" class="img-fluid me-3" alt="thumb de video"
+              style="width:  200px; height: auto;">
+            <div  class="content__text">
+              <h6 class="mb-1">Scrum Talks</h6>
+              <p class="text-muted mb-0">DigitalInnovationOne</p>
+              <p class="text-muted mb-0">1,6 mil visualizações Transmitido há 3 dias</p>
+            </div>
+          </div>
+          <div class="related-video d-flex mb-3 content__related">
+            <img src="/assets/img/ey.png" class="img-fluid me-3" alt="thumb de video"
+              style="width:  200px; height: auto;">
+            <div  class="content__text">
+              <h6 class="mb-1">Machine Learning Avançado - Fast Track</h6>
+              <p class="text-muted mb-0">DigitalInnovationOne</p>
+              <p class="text-muted mb-0">1,7 mil visualizações Transmitido há 4 dias</p>
+            </div>
+          </div>
+          <div class="related-video d-flex mb-3 content__related">
+            <img src="/assets/img/project.png" class="img-fluid me-3" alt="thumb de video"
+              style="width:  200px; height: auto;">
+            <div  class="content__text">
+              <h6 class="mb-1">Global Skills #2 - Project Planning</h6>
+              <p class="text-muted mb-0">DigitalInnovationOne</p>
+              <p class="text-muted mb-0">971 visualizações Transmitido há 5 dias</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="text-center py-3 mt-4">
+    <div class="container">
+      <p class="mb-1">&copy; 2025 Desenvolvido por Fernanda Alves.</p>
+      <p class="mb-0">
+        <a href="https://github.com/FernandaAlvesSilva"><i class="bi bi-github"></i> </a>
+        <a href="https://www.linkedin.com/in/fernanda-alves-605a76242/" class="me-2"><i class="bi bi-linkedin"></i> </a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
