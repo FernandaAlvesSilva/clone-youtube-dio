@@ -19,5 +19,43 @@
     flex-direction: column;
 }
 
-
+@media screen and (max-width: 500px) {
+    .card-body{
+        flex-direction: column;
+    }
     
+    .rounded-circle{
+        width: 2rem;
+        height: 2rem;
+        margin-right: 0.5rem;
+    }
+    
+    .card__group__text{
+        flex-direction: row;
+    }
+    
+    .card__group__text p{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 900px) {
+    .card-body{
+        flex-direction: column;
+    }
+    
+    .rounded-circle{
+        width: 2rem;
+        height: 2rem;
+        margin-right: 0.5rem;
+    }
+    
+    .card__group__text{
+        flex-direction: row;
+    }
+    
+    .card__group__text p{
+        font-size: 0.8rem;
+    }
+}
+    
+
